@@ -1,0 +1,45 @@
+body {
+    padding: 20px;
+}
+
+#main_wrapper {
+    padding: 20px;
+    background-color: #eee;
+    border: 1px solid #999;
+    width: auto;
+    overflow: auto;
+    min-width: 600px;
+}
+.logo {
+    float: left;
+    width: 80px;
+    heigth: 80px;
+    padding: 20px;
+}
+
+/*三栏布局*/
+/*左栏*********************************************/
+#left {
+    float: left;
+    width: 200px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #999;
+}
+
+/*中栏*********************************************/
+#center {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #999;
+    margin-left: 260px;
+    margin-right: 140px;
+}
+
+/*右栏*********************************************/
+#right {
+    width: 120px;
+    float: right;
+    background: #fff;
+    border: 1px solid #999;
+}

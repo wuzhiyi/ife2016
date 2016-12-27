@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#rectangle {
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px -200px;
+    background-color: #ccc;}
+#top-left-area {
+    height: 50px;
+    width: 50px;
+    border-radius: 0 0 50px 0;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-color: #fc0;
+}
+#bottom-right-area {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px 0 0 0;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: #fc0;
+}
