@@ -1,9 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 header {
-  width: 980px;
-  height: 61px;
+    width: 892px;
+    height: 61px;
+    border-bottom: 2px solid #938e8c;
+    margin-right: 44px;
+    margin-left: 44px;
+}
+footer {
+    width: 892px;
+    height: 61px;
+    border-top: 1px solid #938e8c;
+    margin-right: 44px;
+    margin-left: 44px;
+}
+main {
+    width: 892px;
+    margin: 40px 44px;
 }
 
-footer {
-  width: 980px;
-  height: 61px;
+/*header***********************************/
+
+#header-left {
+    float: left;
+    background-color: #d45d5c;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "黑体", "Arial", sans-serif;
+    width: 110px;
+    height: 61px;
+}
+#header-right {
+    float: right;
+    font-size: 12px;
+    font-family: "黑体", "Arial", sans-serif;
+    color: #d45d5c;
+}
+/*main***********************************/
+
+#content-01 {
+    width: 641px;
+    height: 301px;
+}
+#content-01-left {
+    background-color: #75b86b;
+    width: 191px;
+    height: 301px;
+    opacity: 0.5;
+    z-index: 9999;
+    -webkit-overflow-scroling: touch;
+}
+
+/*footer***********************************/
+
+#footer-right {
+    float: right;
+    font-size: 12px;
+    font-family: "黑体", "Arial", sans-serif;
+    color: #d45d5c;
 }
