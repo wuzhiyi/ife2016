@@ -5,7 +5,7 @@
 | 序号 | 任务 | 难度 |
 |:---:|:---:|:---:|
 | 01 | [零基础HTML编码](https://github.com/wuzhiyi/ife2016/tree/master/task01) | 简单 |
-| 02 | [零基础HTML及CSS编码(一)(https://github.com/wuzhiyi/ife2016/tree/master/task02)] | 简单 |
+| 02 | [零基础HTML及CSS编码(一)](https://github.com/wuzhiyi/ife2016/tree/master/task02) | 简单 |
 | 03 | [三栏式布局](https://github.com/wuzhiyi/ife2016/tree/master/task03) | 简单 |
 | 04 | [定位和居中问题](https://github.com/wuzhiyi/ife2016/tree/master/task04) | 简单 |
 | 05 | [零基础HTML及CSS编码(二)](https://github.com/wuzhiyi/ife2016/tree/master/task05) | 简单 |
