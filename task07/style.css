@@ -1,0 +1,247 @@
+* {
+    padding:0;
+    margin:0;
+}
+.container {
+    width:100%;
+    min-width: 1280px;
+    font-family: 'Microsoft Yahei';
+    font-weight:500;
+}
+header {
+    width: 100%;
+    height:60px;
+}
+header .banner-left {
+    height: 60px;
+    width: 10%;
+    display:inline-block;
+    vertical-align: middle;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+
+    position:relative;
+    left: 7%;
+
+    background: url(images/icon-1.png) no-repeat left;
+    background-size: 16% 50%;
+}
+header .banner-left h1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin:0;
+}
+header nav {
+    height: 60px;
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+
+    position: relative;
+    left: 40%;
+}
+header nav ul {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    display: inline-block;
+    width: 19%;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+header .banner-right {
+    height: 60px;
+    width: 5%;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 60px;
+    text-align: center;
+    color: #E8504F;
+    cursor: pointer;
+
+    position: relative;
+    left: 50%;
+
+    background: url(images/icon-2.jpg) no-repeat left;
+    background-size: 15px 18px;
+}
+#start-experience {
+    width: 100%;
+    height: 690px;
+    display: inline-block;
+
+    background: url(images/pic01.jpg) no-repeat;
+    background-size: cover;
+}
+#start-experience .cont {
+    display: inline-block;
+    height: 50%;
+    vertical-align: middle;
+
+    position: relative;
+    left: 10%;
+    top: 20%;
+}
+#start-experience .cont h1 {
+    font-size: 48px;
+    color: white;
+    font-weight: 500;
+}
+#start-experience .cont h2 {
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+}
+#start-experience .cont a {
+    display: block;
+    width: 400px;
+    line-height: 60px;
+    background-color: #E8504F;
+
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+
+    position: relative;
+    top: 30%;
+}
+#four-icon {
+    width: 100%;
+    height: 250px;
+    display: inline-block;
+    font-size:0;
+}
+#four-icon .cell {
+    display: inline-block;
+    width:25%;
+    height:250px;
+    text-align: center;
+    color: gray;
+
+    background: url(iamges/icon-2.jpg) no-repeat center;
+    background-size: auto;
+}
+#four-icon .cell .img {
+    position: relative;
+    top: 20%;
+}
+#four-icon .cell .txt {
+    font-size: 16px;
+
+    position: relative;
+    top: 50%;
+}
+#about-new-world {
+    height: 360px;
+    width: 100%;
+    background-color: #EDEAEA;
+    text-align: center;
+}
+#about-new-world .img {
+    display: inline-block;
+    height: 200px;
+    width: 100%;
+
+    position: relative;
+    top: 60px;
+}
+#about-new-world .txt {
+    display: inline-block;
+    line-height: 100px;
+    color: gray;
+    font-weight: bold;
+    font-size: 48px;
+}
+#four-input {
+    height: 340px;
+    width: 100%;
+    text-align: center;
+
+    background: url(images/pic02.jpg) no-repeat center;
+    background-size: cover;
+}
+#four-input {
+    color: white;
+    font-weight: 500;
+}
+#four-input .txt {
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+
+    position: relative;
+    top: 10%;
+}
+#four-input .txt h1 {
+    font-size: 24px;
+    font-weight: 500;
+}
+#four-input .txt h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+#four-input .txt span {
+    display: inline-block;
+    height: 2px;
+    weight: 40px;
+    color: #fff;
+    margin-top:10px;
+    border-top: 2px solid #fff;
+}
+#four-input form select {
+    display: inline-block;
+    height: 35px;
+    width: 250px;
+}
+#four-input .search {
+    display: inline-block;
+    height: 35px;
+    width: 250px;
+    color: white;
+    background-color: #E8504F;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+}
+#four-input .search p {
+    line-height: 35px;
+}
+#four-city-activity {
+    height: 500px;
+    width: 100%;
+    background-color: #EDEAEA;
+    text-align: center;
+}
+#four-city-activity .cell {
+    display: inline-block;
+    width:20%;
+    height:400px;
+    top: 50px;
+    box-sizing: border-box;
+
+    background: url(iamges/icon-2.jpg) no-repeat center;
+    background-size: auto;
+}
+#four-city-activity .cell .img {
+    display: inline-block;
+    top: 20px;
+}
+#four-city-activity .cell .img img {
+    cursor: pointer;
+}
+#four-city-activity .cell .txt {
+    box-sizing: border-box;
+}
+#four-city-activity .cell .txt h1 {
+    font-size: 20px;
+}
